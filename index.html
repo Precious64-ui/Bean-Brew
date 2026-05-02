@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="fontawesome/css/brands.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Bean & Brew | Handcrafted Coffee</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Bean <span>Brew</span></div>
+        <div class="hamburger" id="hamburger">
+    <i class="fas fa-bars"></i>
+</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+<section class="home" id="hero">
+    <h2>Better Beans. Better Brew</h2>
+    <p>Small-batch roasting. Direct-trade sourcing. Exceptional coffee delivered fresh every single day.</p>
+    <a href="#">Explore Our Roasts</a>
+</section>
+
+<section id="menu">
+    <div class="coffee-items">
+        <img src="coffee/hot-chocolate-latte-white-cup.jpg" alt="coffee">
+        <h3>Signature Espresso</h3>
+        <p>A bold, full-bodied shot with notes of dark chocolate and a honey-like crema finish.</p>
+        <span>$3.50</span>
+    </div>
+    <div class="coffee-items">
+        <img src="coffee/glass-iced-coffee-topped-with-vanilla-ice-cream-known-as-affogato-sits-rustic-wooden-table_871349-86382.jpg" alt="coffee">
+        <h3>Vanilla Sweet Cream Cold Brew</h3>
+        <p>Our 16-hour slow-steeped cold brew topped with a handcrafted silky vanilla cream.</p>
+        <span>$5.25</span>
+    </div>
+    <div class="coffee-items">
+        <img src="coffee/vertical-closeup-shot-filtered-coffee-table.jpg" alt="coffee">
+        <h3>Ethiopian Yirgacheffe (Pour Over)</h3>
+        <p>A bright, tea-like profile featuring high acidity with vibrant floral and citrus undertones.</p>
+        <span>$6.00</span>
+    </div>
+    <div class="coffee-items">
+        <img src="coffee/blueberry-dessert-purple-cup.jpg" alt="coffee">
+        <h3>Lavender Oat Latte</h3>
+        <p>Creamy oat milk infused with organic lavender syrup and topped with a sprig of dried petals.</p>
+        <span>$5.75</span>
+    </div>
+    <div class="coffee-items">
+        <img src="coffee/cup-hot-latte-with-foam_140725-10096.avif" alt="coffee">
+        <h3>Russian coffee drink</h3>
+        <p>espresso, cream, and vanilla sugar—together in a pitcher before steaming the entire mixture with a milk wand.</p>
+        <span>$5.75</span>
+    </div>
+</section>
+
+<section id="about">
+    <div class="about-content">
+        <h2>Rooted in Nature. Brewed for You.</h2>
+        <p>Great coffee isn't made; it’s grown. We source our beans from the world's most breathtaking landscapes, prioritizing ethical farming and expert roasting. Experience the pure, unadulterated taste of the mountains in every sip.</p>
+    </div>
+    <img src="freshly-harvested-coffee-beans-being-poured-into-container-with-plantation_661495-58730.jpg" alt="coffee farm">
+</section>
+
+<div class="contact-container" id="contact">
+    <h2>Find Our Cafe</h2>
+    <div class="map-wrapper">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.71775!2d3.4525253!3d6.4501355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4f9f0b1c31b%3A0xc2c54070512886b8!2sLekki+-+Ikoyi+Link+Brg!5e0!3m2!1sen!2sng!4v1714560000000!5m2!1sen!2sng" 
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+</div>
+
+    <form id="contact-form">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="name" required>
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="@example" required>
+    </div>
+    <div>
+        <label for="message">your message</label>
+        <textarea name="message" id="message" rows="4" placeholder="message" required></textarea>
+    </div>
+
+    <button type="submit">send message</button>
+</form>
+
+<div class="contact-flex-row">
+    <form id="contact-form"> ... </form>
+    
+    <div class="hours-card">
+        <h3>Brewing Hours</h3>
+        <ul>
+            <li><span>Mon - Fri</span> <span>7:00 AM - 6:00 PM</span></li>
+            <li><span>Saturday</span> <span>8:30 AM - 5:00 PM</span></li>
+            <li><span>Sunday</span> <span class="closed">Closed</span></li>
+        </ul>
+    </div>
+</div>
+
+</section>
+
+
+
+
+<footer>
+    <small>&copy; 2026 Bean & Brew coffee shop</small>
+    <nav>
+        <ul class="footer-nav">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <ul class="social">
+    <li><a href="#" aria-label="Follow us on Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+    <li><a href="#" aria-label="Follow us on LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
+    <li><a href="#" aria-label="Follow us on Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+    <li><a href="#" aria-label="Follow us on TikTok"><i class="fa-brands fa-tiktok"></i></a></li>     
+    </ul>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
